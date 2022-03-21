@@ -72,7 +72,7 @@ main section:first-child::after{
   }
   
   main > section{
-    width: 90%;
+    width: 100%;
   }
 
   main section:first-child{
@@ -80,7 +80,16 @@ main section:first-child::after{
   }
   
   main section h1{
-    font-size: 36px;
+    font-size: 32px;
+  }
+  main section h2{
+    font-size: 20px;
+  }
+  main section div.tech-stack h3{
+    font-size: 16px;
+  }
+  main section div.tech-stack{
+    margin-bottom: 20px;
   }
 }
 
